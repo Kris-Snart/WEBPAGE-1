@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background: rgb(213, 207, 207);
+}
+.nav-bar {
+  background-color: #fefefe;
+  /* border-radius: 5px;
+  width: 1300px;
+  margin: auto; */
+  display: flex;
+}

@@ -1,0 +1,111 @@
+@font-face {
+  font-family: ubuntu;
+  src: url(/Fonts/ubtntu/Ubuntu-Regular.ttf);
+}
+@font-face {
+  font-family: arme;
+  src: url(/Fonts/arme/Acme-Regular.ttf);
+}
+
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(40, 41, 42);
+}
+
+header {
+  background-color: rgb(120, 120, 210);
+  width: 100%;
+  height: 100px;
+}
+
+ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+ul li {
+  list-style: none;
+  color: aliceblue;
+  display: inline-block;
+  float: left;
+  margin: 0 10px;
+  font-family: arme;
+  font-size: 18px;
+  line-height: 70px;
+}
+ul li a {
+  color: black;
+  display: block;
+}
+ul li a:hover {
+  color: rgb(245, 244, 244);
+}
+a:hover {
+  color: rgb(245, 244, 244);
+}
+
+.brand-name {
+  color: #111;
+  font-family: ubuntu;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+  display: block;
+}
+.mainw {
+  width: 100%;
+}
+.mainw h2 {
+  padding: 20px 10px 10px;
+  font-family: ubuntu;
+  font-size: 28px;
+  line-height: 30px;
+  color: aliceblue;
+}
+.mainw p {
+  padding: 0px 10px 10px;
+  font-family: arme;
+  font-size: 16px;
+  line-height: 25px;
+  color: aliceblue;
+}
+.imgM {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .imgM {
+    padding-top: 10px;
+  }
+  .mainw {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .logo {
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .logo {
+    width: 1100px;
+    margin: 0 auto;
+  }
+  .imgM {
+    padding-top: 10px;
+    float: right;
+    width: 50%;
+  }
+  .info-3 {
+    float: left;
+    width: 50%;
+  }
+
+  .mainw {
+    width: 1000px;
+  }
+}

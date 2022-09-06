@@ -1,0 +1,93 @@
+@font-face {
+  font-family: Arme;
+  src: url(/Fonts/arme/Acme-Regular.ttf);
+}
+@font-face {
+  font-family: catamaran;
+  src: url(/Fonts/catamaran/static/Catamaran-Regular.ttf);
+}
+@font-face {
+  font-family: Ubuntu;
+  src: url(/Fonts/ubtntu/Ubuntu-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(235, 235, 235);
+}
+main .axx {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+main .axx .topbox {
+  padding: 2rem;
+  background-color: #fff;
+  width: 100%;
+}
+.topbox h3 {
+  padding: 10px 0;
+  font-weight: bold;
+  font-family: Ubuntu;
+  color: aqua;
+  font-size: 20px;
+  padding-bottom: 14px;
+}
+.topbox #text-top {
+  font-weight: 200;
+  font-family: Arme;
+  color: rgb(143, 255, 23);
+  font-size: 16px;
+}
+main .axx .container14 {
+  display: flex;
+}
+
+main .axx .box2221 {
+  background-color: rgb(34, 130, 130);
+  padding: 2em;
+  width: 50%;
+}
+main .axx .box2221 h3 {
+  color: #fff;
+  font-size: 24px;
+}
+main .axx .box2221 .bolderr {
+  color: #fff;
+  font-size: 24px;
+}
+main .axx .box2221 p {
+  font-weight: 200;
+  font-family: Arme;
+  color: #fefefe;
+  font-size: 16px;
+}
+
+main .axx .box2221 button {
+  background-color: rgb(143, 255, 23);
+  padding: 10px 50px;
+  color: #fff;
+  border: none;
+}
+main .axx .box1122 {
+  background-color: rgb(42, 208, 217);
+  padding: 2em;
+  width: 50%;
+}
+main .axx .box1122 h3 {
+  color: #fff;
+  font-size: 24px;
+}
+main .axx .box1122 p {
+  font-weight: 200;
+  font-family: Arme;
+  color: #fefefe;
+  font-size: 16px;
+}
